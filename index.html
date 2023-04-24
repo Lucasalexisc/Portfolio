@@ -99,22 +99,34 @@
         </div>
         <div class="content">
             <a href="#"><ion-icon name="mail-outline"></ion-icon>lucasalexisc@gmail.com</a>
-        </div>
-        <div class="content">
-            <a href="#"><ion-icon name="mail-outline"></ion-icon>+5491138795123</a>
-        </div>
-        <div class="content">
-            <a href="#"><ion-icon name="mail-outline"></ion-icon>linkedin</a>
-        </div>
-        <div class="content">
-            <a href="#"><ion-icon name="mail-outline"></ion-icon>linkedin</a>
+        <!-- </div>
+        <div class="content"> -->
+            <a href="#"><ion-icon name="call-outline"></ion-icon>+5491138795123</a>
+        <!-- </div>
+        <div class="content"> -->
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon>Linkedin</a>
+        <!-- </div>
+        <div class="content"> -->
+            <a href="#"><ion-icon name="logo-github"></ion-icon>Github</a>
         </div>
         <div class="center">
             <p class="copyrights">Copyright © 2023 All rights reserved</a></p>
         </div>
+
+        
     </section>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+    let list = document.querySelectorAll('.nav li');
+    function active(){
+        list.forEach((i) =>
+        i.classList.remove('active'));
+        this.classList.add('active')
+    }
+    list.forEach((i) =>
+    i.addEventListener('click'));
+    </script>
 </body>
 
 </html>
